@@ -25,7 +25,6 @@
 - ✅ Transform: Resize về `224x224`
 
 ### 5. **Augmentation**
-- ✅ **Không** augmentation trong `merge_datasets.py` (đã xóa)
 - ✅ Augmentation chỉ trong `train_loader` (train_transform)
 - ✅ Val và test **không** có augmentation
 
@@ -64,21 +63,10 @@
    ├── Load models từ train_models.py
    ├── Test trên ảnh mẫu
    └── Visualization kết quả
-
-4. yolo_pipeline.py
-   ├── YOLOv8 detection
-   ├── Crop vùng tổn thương
-   ├── Classification với models từ train_models.py
-   └── So sánh với pure classification
 ```
-
-## ⚠️ Lưu ý:
-
-1. **File extension**: Scar có `.jpeg`, các class khác có `.jpg` - đã xử lý đúng
-2. **Augmentation**: Chỉ trong training, không lưu file mới
-3. **YOLOv8**: Cần train YOLOv8 model trước khi chạy `yolo_pipeline.py`
 
 ## ✅ Kết luận:
 
 Pipeline đã **nhất quán** và sẵn sàng để chạy thực nghiệm.
+
 
