@@ -16,7 +16,6 @@ detect_acne/
 ├── models_old.py             # Mô hình phiên bản cũ (để so sánh)
 ├── compare_models.py         # Script so sánh phiên bản cũ và mới
 ├── test_sample_images.py     # Test trên ảnh mẫu
-├── yolo_pipeline.py          # YOLOv8 detection + classification
 └── requirements.txt          # Dependencies
 ```
 
@@ -132,5 +131,6 @@ Sau khi train, so sánh kết quả:
 - Training time
 - Model size
 - Inference speed
+
 
 
