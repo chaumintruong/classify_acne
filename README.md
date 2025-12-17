@@ -1,6 +1,6 @@
 # Acne Detection và Classification Project
 
-Dự án phát hiện và phân loại các loại mụn trên da: blackheads, whiteheads, acnes, scar.
+Dự án phân loại các loại tổn thương trên da: blackheads, whiteheads, acnes, scar.
 
 ## Cấu trúc dự án
 
@@ -131,6 +131,7 @@ Sau khi train, so sánh kết quả:
 - Training time
 - Model size
 - Inference speed
+
 
 
 
